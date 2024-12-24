@@ -384,8 +384,8 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/10_project/";
             },},{id: "projects-structured-light-camera",
-          title: 'Structured Light Camera',
-          description: "My capstone project at OSU",
+          title: 'structured light camera',
+          description: "my capstone project at OSU",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_slc/";
             },},{id: "projects-project-2",
