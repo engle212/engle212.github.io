@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Structured Light Camera
-description: My capstone project at OSU
+title: structured light camera
+description: my capstone project at OSU
 img: assets/img/1_cupScan.jpg
 importance: 1
 category: 

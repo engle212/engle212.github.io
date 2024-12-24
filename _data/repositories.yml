@@ -1,14 +1,13 @@
 github_users:
-  - torvalds
-  - alshedivat
+#  - engle212
 
-repo_description_lines_max: 2
+repo_description_lines_max: 3
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - engle212/django-chatbot
+  - engle212/opencv-python-doc
+  - engle212/2024-su-Team-3-CoffeeShop
+  - engle212/DataSearchEngine
+  - engle212/linear-algebra-toolkit
+  - engle212/ChessBot
+  - engle212/Drawing2Code
