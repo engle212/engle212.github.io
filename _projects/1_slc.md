@@ -4,7 +4,7 @@ title: Structured Light Camera
 description: My capstone project at OSU
 img: assets/img/1_cupScan.jpg
 importance: 1
-category: work
+category: 
 related_publications: true
 ---
 
