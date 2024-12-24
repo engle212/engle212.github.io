@@ -6,7 +6,6 @@ repo_description_lines_max: 3
 github_repos:
   - engle212/django-chatbot
   - engle212/opencv-python-doc
-  - engle212/2024-su-Team-3-CoffeeShop
   - engle212/DataSearchEngine
   - engle212/linear-algebra-toolkit
   - engle212/ChessBot
