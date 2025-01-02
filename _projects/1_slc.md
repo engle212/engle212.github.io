@@ -8,7 +8,10 @@ category:
 related_publications: true
 ---
 
-I will provide a brief overview of the project in this paragraph.
+This is easily one of my favorite projects I've worked on. It combines computer vision algorithms with web development and microcomputer programming in a way that produces a dazzling spectacle of a result - this result being a 3D model of a real-world object!
+My experience with computer vision before starting this project was shaky at best. I couldn't tell you what the term "structured light" meant, nor how stereo vision works. I will go into more detail as to what these mean, and how these concepts come together to create a system capable of synthesizing 3-dimensional objects.
+
+To get started, I should explain what structured light is and how it works. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
