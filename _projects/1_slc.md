@@ -8,10 +8,29 @@ category:
 related_publications: true
 ---
 
-This is easily one of my favorite projects I've worked on. It combines computer vision algorithms with web development and microcomputer programming in a way that produces a dazzling spectacle of a result - this result being a 3D model of a real-world object!
+This is easily one of my favorite projects I've worked on. It combines computer vision algorithms with web development and microcomputer programming in a way that produces a dazzling spectacle of a result - this result being a 3D representation of a real-world object!
 My experience with computer vision before starting this project was shaky at best. I couldn't tell you what the term "structured light" meant, nor how stereo vision works. I will go into more detail as to what these mean, and how these concepts come together to create a system capable of synthesizing 3-dimensional objects.
 
-To get started, I should explain what structured light is and how it works. 
+To get started, I should explain *what* this project is.
+
+# Overall Setup
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    A structured light camera is a system consisting of a camera and a projector (like what you would find in a conference room). Using a controller computer, the system synchronizes the camera and projector in order to capture unique images of an object. This controller sends patterned images to the projector, then captures image input from the camera for each image. From these 2D images, the system uses some complex 3D linear algebra to estimate a 3rd dimension for each pixel.
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/1_cupScan.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+
+# Coordinate Math
+H
+
+Now, for the iteration I worked on, we:
+- Used a webcam and projector that one of us had lying around.
+- Based our project around the OpenCV implementation of structured light.
+- Implemented point cloud generation *and* mesh generation.
+- Designed the system to be modular and user-friendly.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
