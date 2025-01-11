@@ -21,7 +21,7 @@ To get started, I should explain *what* this project is.
   <div class="col-sm mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/1_cupScan.jpg" title="a cup being scanned" class="img-fluid rounded z-depth-1" %}
     <div class="caption">
-      Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+      a cup being scanned by the structured light camera
     </div>
   </div>
 </div>
