@@ -30,12 +30,15 @@ To get started, I should explain *what* this project is.
 At its core, structured light is a problem of triangulation. We know the locations of two points: a pixel of the projected image, and a pixel of the image captured by the camera. Since the projector and camera are oriented at two different places in space, the pixels are points in different coordinate systems. This means that their positions are defined by terms. We can work around this by looking at the physical relationships between the camera and projector.
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    These are mathematically defined by the extrinsic parameters, represented by the matrix <strong>R</strong> and the vector <strong>t</strong> in the image to the right.
-    The vector <strong>R</strong> is known as the rotation matrix. This specifies the roll, pitch, and yaw rotations needed to map a projector coordinate to a camera coordinate. Applying these rotation transformations to one of the camera or projector results in both of these systems being parallel.
-    The vector <strong>t</strong> is known as the translation vector. This specifies the distance and direction to move the camera or projector to the other. Applying the translation to one of these results in both of these systems being located at the same location.
+    {% include figure.liquid loading="eager" path="assets/img/1_triang.png" title="triangulation" class="img-fluid rounded z-depth-1" %}
+    <div class="caption">
+      a representation of points mapping from one system to another in order to triangulate
+    </div>
   </div>
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/1_triang.png" title="triangulation" class="img-fluid rounded z-depth-1" %}
+    These are mathematically defined by the extrinsic parameters, represented by the matrix <strong>R</strong> and the vector <strong>t</strong> in the image to the left.
+    The vector <strong>R</strong> is known as the rotation matrix. This specifies the roll, pitch, and yaw rotations needed to map a projector coordinate to a camera coordinate. Applying these rotation transformations to one of the camera or projector results in both of these systems being parallel.
+    The vector <strong>t</strong> is known as the translation vector. This specifies the distance and direction to move the camera or projector to the other. Applying the translation to one of these results in both of these systems being located at the same location.
   </div>
 </div>
 So, using both the **R** and **t**, we can map points from one coordinate system into the other. Since we now know pairs of points within the same coordinate system, we can approach this as a triangulation problem as we originally intended.
