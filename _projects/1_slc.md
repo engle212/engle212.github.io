@@ -37,8 +37,14 @@ At its core, structured light is a problem of triangulation. We know the locatio
   </div>
   <div class="col-sm mt-3 mt-md-0">
     These are mathematically defined by the extrinsic parameters, represented by the matrix <strong>R</strong> and the vector <strong>t</strong> in the image to the left.
-    The vector <strong>R</strong> is known as the rotation matrix. This specifies the roll, pitch, and yaw rotations needed to map a projector coordinate to a camera coordinate. Applying these rotation transformations to one of the camera or projector results in both of these systems being parallel.
-    The vector <strong>t</strong> is known as the translation vector. This specifies the distance and direction to move the camera or projector to the other. Applying the translation to one of these results in both of these systems being located at the same location.
+    <ul>
+      <li>
+        The matrix <strong>R</strong> is known as the rotation matrix. This specifies the roll, pitch, and yaw rotations needed to map a projector coordinate to a camera coordinate. Applying these rotation transformations to one of the camera or projector results in both of these systems being parallel.
+      </li>
+      <li>
+        The vector <strong>t</strong> is known as the translation vector. This specifies the distance and direction to move the camera or projector to the other. Applying the translation to one of these results in both of these systems being located at the same location.
+      </li>
+    </ul>
   </div>
 </div>
 So, using both the **R** and **t**, we can map points from one coordinate system into the other. Since we now know pairs of points within the same coordinate system, we can approach this as a triangulation problem as we originally intended.
