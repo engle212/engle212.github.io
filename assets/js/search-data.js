@@ -35,6 +35,11 @@ ninja.data = [{
           description: "my capstone project at OSU",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_slc/";
+            },},{id: "projects-django-chatbot",
+          title: 'django-chatbot',
+          description: "an exploration of how chatbots work",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_chatbot/";
             },},{
         id: 'social-email',
         title: 'email',
