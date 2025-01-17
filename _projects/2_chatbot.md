@@ -31,13 +31,12 @@ It is worth noting that I didn't use these cloud tools in the initial developmen
 play it safe with billing. Since this is my first big project with these cloud tools, I was unsure
 if I would hit the deadline I set for myself to have a working project: January 27th.
 
+I started development with setting up the Django app and getting right into designing the view.
+This would feature a similar layout to existing chatbots like ChatGPT. It has a navbar, left-hand
+sidebar, and a standard messaging interface in the middle. Since I planned to revisit the view,
+I simply stopped once I could deem the interface "usable".
+
 <div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-    I started development with setting up the Django app and getting right into designing the view.
-    This would feature a similar layout to existing chatbots like ChatGPT. It has a navbar, left-hand
-    sidebar, and a standard messaging interface in the middle. Since I planned to revisit the view,
-    I simply stopped once I could deem the interface "usable".
-  </div>
   <div class="col-sm mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/2_viewSC.png" title="initial interface" class="img-fluid rounded z-depth-1" %}
   </div>
