@@ -50,7 +50,7 @@
       "name": "Cyberinfrastructure for Machine Learning Applications in Agriculture: Experiences, Analysis, and Vision",
       "publisher": "Frontiers in Artificial Intelligence",
       "releaseDate": "2025-01-#",
-      "url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1496066/abstract",
+      "url": "https://doi.org/10.3389/frai.2024.1496066",
       "summary": "h"
     }
   ],
@@ -94,10 +94,36 @@
   ],
   "projects": [
     {
-      "name": "name",
-      "summary": "summary",
-      "highlights": ["highlight1", "highlight2"],
-      "url": "https://example.com"
+      "name": "FieldVision",
+      "summary": "-",
+      "highlights": [
+        "Trained a YOLO deep learning model on over 2000 annotated images to identify crops in drone imagery",
+        "Tuned hyperparameters of deep learning model, resulting in a mAP50 accuracy score of around 90%",
+        "Deployed a web dashboard with PostgreSQL and AI integration, user log-in, and image upload interface",
+        "Integrated the model into a web application built using Python and Flask"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Chatbot",
+      "summary": "-",
+      "highlights": [
+        "Built a web application using Django and JavaScript",
+        "Deployed to Heroku, using AWS S3 for data storage",
+        "Devised and implemented a CI/CD pipeline using GitHub Actions",
+        "Used prompt engineering to integrate an LLM from Hugging Face into an interactive application"
+      ],
+      "url": "https://ej-django-chatbot-a729e1d22fee.herokuapp.com/"
+    },
+    {
+      "name": "Structured Light Camera",
+      "summary": "-",
+      "highlights": [
+        "Built a stereo vision system on Jetson Nano, creating accurate point clouds to aid in 3D reconstruction",
+        "Collaborated in an Agile team to implement advanced triangulation algorithms with Python and OpenCV",
+        "Developed a web interface with 3D point cloud display using Flask and Three.js"
+      ],
+      "url": ""
     }
   ]
 }
