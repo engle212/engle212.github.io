@@ -75,6 +75,25 @@ As for the LLM, I chose a Google model offered by Hugging Face, titled `google/g
 model seemed to offer good responses that weren't all watermarked with emojis like some other
 models are (looking at you, Meta and 01-ai 😠). I didn't try all of the models so I can't guarantee
 that Gemma was the best choice here. With that being said, I will definitely look into some more
-models in the future, or, just offer a feature to choose between a wide selection of models. I think
-this would offer something that actually sets this chatbot apart from existing chatbots, so keep an
-eye out for that update.
+models in the future, or, just offer a feature to choose between a wide selection of models. I 
+think this would offer something that actually sets this chatbot apart from existing chatbots, so
+keep an eye out for that update.
+
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/2_viewSC_after_implementation.png" title="initial interface" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+
+After implementing all of the essential application logic, I took some time to make the chat UI a
+little easier on the eyes. This first revamp was done within the existing structure I built out
+using Django's templating language, Bootstrap, and JavaScript.
+
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/2_viewSC_after_styling.png" title="initial interface" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+
+While the interface does just fine for this use case, I have a React project in the works using the
+Material UI that will make this project appear more polished. 
