@@ -87,3 +87,6 @@ anticipated how deep we would need to research for this. If we familiarized ours
 OpenCV, we could have made a more organized effort to find a working solution. Luckily, we
 accounted for some setbacks like this in our project planning so we were still able to hit our
 deadline.
+
+The result of our hard work was a structured light camera that could produce a decent output, given
+the ideal environmental conditions. 
